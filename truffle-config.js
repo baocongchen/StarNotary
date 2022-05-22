@@ -48,9 +48,9 @@ module.exports = {
     development: {
       host: "127.0.0.1",     // Localhost (default: none)
       port: 9545,            // Standard Ethereum port (default: none)
-      network_id: "*",       // Any network (default: none)
+      network_id: "4447",       // Any network (default: none)
     },
-
+    /*
     rinkeby: {
       provider: () => new HDWallet(mnemonic, `https://rinkeby.infura.io/v3/${infuraKey}`),
       network_id: '4',       // Any network (default: none)
@@ -60,6 +60,7 @@ module.exports = {
       skipDryRun: true,
       gasPrice: 500000000000,
     },
+    */
 
     // Another network with more advanced options...
     // advanced: {
